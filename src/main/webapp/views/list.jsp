@@ -17,9 +17,9 @@
             <%
                 List<String> names = (List<String>) request.getAttribute("names");
                 if (names != null && !names.isEmpty()) {
-                    out.println("<ul class=\\\"w3-ul\\\">");
+                    out.println("<ul class=\"w3-ul\">");
                     for (String name : names) {
-                        out.println("<li>" + name + "</li>");
+                        out.println("<li class=\"w3-hover-sand\">" + name + "</li>");
                     }
                     out.println("</ul>");
                 } else {
